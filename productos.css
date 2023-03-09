@@ -1,0 +1,65 @@
+.productos{
+    position: relative;
+    top: 10rem;
+    display: grid;
+    grid-gap:2rem;
+    grid-template-columns: 1fr;
+    padding: 4rem;
+}
+.titulo-prod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Color-fuente-1);
+    font-family: var(--Fuente-principal);
+    font-weight: bold;
+}
+.titulo-card{
+    font-size: var(--Tamaño-titulo);
+}
+.link-card{
+    text-decoration: none;
+    color: var(--Color-fuente-1);
+    font-size: var(--Tamaño-texto-min);
+    transition: all .5s ease-in;
+}
+.link-card:hover{
+    color: var(--Color-span-1);
+    transform: scale(1.1);
+}
+.card-1, .card-2, .card-3{
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1.5fr));
+}
+.tarjeta{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+    font-size: var(--Tamaño-texto);
+    font-family: var(--Fuente-principal);
+    padding:1rem;
+    border-radius: 2rem;
+    display: grid;
+    grid-gap: .5rem;
+    text-align: center;
+    color: var(--Color-fuente-1);
+    transition: all .5s ease-in;
+}
+.tarjeta:hover{
+    transform: scale(1.1);
+}
+.prod-img{
+    width: 100%;
+    border-radius: 2rem;
+}
+.prod-titulo{
+    font-size: var(--Tamaño-titulo-min);
+}
+.prod-precio{
+    font-size: var(--Tamaño-texto-min);
+}
+.prod-enlace{
+    text-decoration: none;
+    color: var(--Color-span-1);
+    font-size: var(--Tamaño-texto-min);
+    font-weight: bold;
+}
