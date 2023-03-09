@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href="scss/responsive.css">
     <title>JyJ&M | Tienda De Ropa</title>
 </head>
 <body>
@@ -34,8 +35,10 @@
         </div>
         <div class="menu-2">
             <ul class="lista-menu">
-                <li class="busqueda"><input class="entrada-busqueda" type="text" placeholder="Buscar productos..." maxlength="20"><button class="boton-busqueda"><i class="bi bi-search"></i></button></li>
-                <li><button class="boton-nav"><i class="bi bi-person"></i></button></li>
+                <li class="busqueda">
+                    <input class="entrada-busqueda" type="text" placeholder="Buscar..." maxlength="20">
+                    <button class="boton-busqueda"><i class="bi bi-search"></i></button></li>
+                <li><a class="boton-nav" href="#" target="_blank"><i class="bi bi-person"></i></a></li>
                 <li class="redes-sociales">
                     <a href="https://www.instagram.com/" target="_blank">
                         <i class="bi bi-instagram"></i>
@@ -46,13 +49,12 @@
                     <a href="https://twitter.com/home" target="_blank">
                         <i class="bi bi-twitter"></i>
                     </a>
-                    
                 </li>
                 
             </ul>
         </div>
     </header>
-    <main>
+    <main class="main">
         <section class="fondo">
             <div class="fondo-descuentos">
                 <h1 class="descuento-texto">50% <span>Irresistible</span></h1>
@@ -60,7 +62,7 @@
             <div class="fondo-container">
                 <h1 class="titulo-fondo">Marzo Promocional</h1>
                 <p class="texto-fondo">Ropa seleccionados con 33% de descuento</p>
-                <button class="boton-fondo">Ver Ofertas</button>
+                <a class="boton-fondo" href="#" target="_blank">Ver Ofertas</a>
             </div>
             
         </section>

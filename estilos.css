@@ -159,11 +159,6 @@ main{
     text-align: center;
     align-items: center;
 }
-.descuento-numero{
-    font-size: var(--Tamaño-titulo-super);
-    text-shadow: 10px 5px 10px #272727;
-    text-align: center;
-}
 .descuento-texto{
     font-size: var(--Tamaño-titulo-super);
     text-shadow: 10px 5px 10px #272727;
@@ -203,6 +198,10 @@ main{
     border: 2px solid var(--Color-fuente-1);
     font-size: var(--Tamaño-texto);
     font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all .5s ease-in-out;
 }
 .boton-fondo:hover{

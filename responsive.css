@@ -1,0 +1,9 @@
+@media screen and (max-width: 1450px) {
+  .main {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/fondo-vertical.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}/*# sourceMappingURL=responsive.css.map */
