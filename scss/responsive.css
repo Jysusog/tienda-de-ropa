@@ -1,7 +1,7 @@
+@charset "UTF-8";
 @media screen and (max-width: 1450px) {
   .main {
     width: 100%;
-    height: 500vh;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/fondo-vertical.png);
     background-position: start;
     background-repeat: no-repeat;
@@ -26,6 +26,25 @@
   }
   .fondo .fondo-container .boton-fondo {
     font-size: 1rem;
+  }
+  .footer {
+    padding: 2rem;
+    grid-gap: 2rem;
+    grid-template-columns: 0.5fr 1fr 3fr;
+  }
+  .footer .menu-1 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .footer .menu-1 .logo-footer-img {
+    width: 50%;
+  }
+  .footer .menu-1 .logo-footer-texto {
+    font-size: var(--Tamaño-header-texto);
+  }
+  .footer .menu-2 .sub-paginas .sub-links {
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 950px) {
@@ -73,11 +92,23 @@
   .header .menu-2 .lista-menu .redes-sociales {
     display: none;
   }
+  .footer .menu-2 .sub-paginas .sub-links {
+    font-size: 0.65rem;
+  }
+  .footer .menu-3 form .titulo-form {
+    font-size: 1rem;
+  }
+  .footer .menu-3 form .nombre, .footer .menu-3 form .mensaje {
+    font-size: 0.8rem;
+  }
+  .footer .menu-3 form .nombre input, .footer .menu-3 form .mensaje input {
+    padding: 0.8rem;
+  }
+  .footer .menu-3 form .boton-mensaje {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 750px) {
-  .main {
-    height: 800vh;
-  }
   .header {
     width: 100%;
     justify-content: space-around;
@@ -112,6 +143,49 @@
   .productos .card-1, .productos .card-2, .productos .card-3 {
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1.5fr));
   }
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 3fr;
+    gap: 1rem;
+  }
+  .footer .menu-1 {
+    flex-direction: row;
+  }
+  .footer .menu-1 .logo-footer-img {
+    width: 10%;
+  }
+  .footer .menu-1 .logo-footer-texto {
+    font-size: var(--Tamaño-header-titulo);
+  }
+  .footer .menu-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .menu-2 .sub-paginas {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: initial;
+  }
+  .footer .menu-2 .sub-paginas .sub-links {
+    font-size: 1rem;
+  }
+  .footer .menu-3 form {
+    padding: 2rem;
+  }
+  .footer .menu-3 form .titulo-form {
+    font-size: 1rem;
+  }
+  .footer .menu-3 form .nombre, .footer .menu-3 form .mensaje {
+    font-size: 0.8rem;
+  }
+  .footer .menu-3 form .nombre input, .footer .menu-3 form .mensaje input {
+    padding: 0.8rem;
+  }
+  .footer .menu-3 form .boton-mensaje {
+    width: 30%;
+  }
 }
 @media screen and (max-width: 500px) {
   .header {
@@ -145,9 +219,6 @@
   }
   .header .menu-2 .lista-menu .boton-nav .bi-person {
     font-size: 1.2rem;
-  }
-  .main {
-    height: 1500vh;
   }
   .main .fondo {
     width: 88%;
@@ -184,6 +255,31 @@
   .main .productos .card-1 .tarjeta:hover, .main .productos .card-2 .tarjeta:hover, .main .productos .card-3 .tarjeta:hover {
     transform: scale(0.9);
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  }
+  .main .footer {
+    gap: 0;
+    padding: 1rem;
+  }
+  .main .footer .menu-1 .logo-footer-texto {
+    font-size: 1rem;
+  }
+  .main .footer .menu-2 .sub-paginas .sub-links {
+    font-size: 0.8rem;
+  }
+  .main .footer .menu-3 form {
+    padding: 1rem;
+  }
+  .main .footer .menu-3 form .titulo-form {
+    font-size: 1rem;
+  }
+  .main .footer .menu-3 form .nombre, .main .footer .menu-3 form .mensaje {
+    font-size: 0.8rem;
+  }
+  .main .footer .menu-3 form .nombre input, .main .footer .menu-3 form .mensaje input {
+    padding: 0.8rem;
+  }
+  .main .footer .menu-3 form .boton-mensaje {
+    width: 100%;
   }
 }
 @media screen and (max-width: 350px) {

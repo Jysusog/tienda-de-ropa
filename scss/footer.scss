@@ -1,0 +1,102 @@
+.footer{
+    top: 10rem;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(../img/fondo-footer.png);
+    
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    color: var(--Color-fuente-1);
+    .menu-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        .logo-footer-img{
+            width: 20%;
+        }
+        .logo-footer-texto{
+            font-family: var(--Fuente-Logo);
+            font-size: var(--Tamaño-header-titulo);
+            span{
+                color: var(--Color-span-1);
+            }
+        }
+    }
+    .menu-2{
+        .sub-paginas{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            gap: 1rem;
+            .sub-links{
+                text-decoration: none;
+                color: var(--Color-fuente-1);
+                font-family: var(--Fuente-Logo);
+                transition: all 1s ease-out;
+            }
+            .sub-links:hover{
+                text-shadow: 5px 5px 15px #e21111ec;
+                
+            }
+        }
+    }
+    .menu-3{
+        form{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 1rem;
+            font-family: var(--Fuente-Logo);
+            .titulo-form{
+                font-size: 1.2rem;
+                text-transform: uppercase;
+            }
+            .mensaje, .nombre{
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+                input{
+                    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2));
+                    width: 80%;
+                    height: 1rem;
+                    padding: 1rem;
+                    color: var(--Color-fuente-1);
+                    font-size: 1rem;
+                    font-family: var(--Tamaño-texto);
+                    border-radius: 2rem;
+                    border: 0;
+                    outline: none;
+                }
+                ::placeholder{
+                    color: #b8b8bb;
+                }
+            }
+            .boton-mensaje{
+                width: 30%;
+                font-family: var(--Fuente-Logo);
+                font-size: .7rem;
+                text-transform: uppercase;
+                background: transparent;
+                border: 2px solid var(--Color-fondo-1);
+                border-radius: 2rem;
+                color: var(--Color-fuente-1);
+                transition: all 1s ease-in-out;
+                padding: 1rem;
+            }
+            .boton-mensaje:hover{
+                background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+                border: none;
+                cursor: pointer;
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+    

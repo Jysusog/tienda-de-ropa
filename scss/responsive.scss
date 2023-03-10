@@ -2,7 +2,6 @@
 @media screen and (max-width:1450px){
     .main{
         width: 100%;
-        height: 500vh;
         background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0.2)),url(../img/fondo-vertical.png);
         background-position: start;
         background-repeat: no-repeat;
@@ -32,7 +31,29 @@
             }
         }
     }
-    
+    .footer{
+        padding: 2rem;
+        grid-gap: 2rem;
+        grid-template-columns: .5fr 1fr 3fr;
+        .menu-1{
+            flex-direction: column;
+            justify-content: center;
+            gap: .5rem;
+            .logo-footer-img{
+                width: 50%;
+            }
+            .logo-footer-texto{
+                font-size:var(--Tamaño-header-texto);
+            }
+        }
+        .menu-2{
+            .sub-paginas{
+                .sub-links{
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width:950px){
     .header{
@@ -91,10 +112,37 @@
             
         }
     }
+    .footer{
+        .menu-1{
+
+        }
+        .menu-2{
+            .sub-paginas{
+                .sub-links{
+                    font-size: .65rem;
+                }
+            }
+        }
+        .menu-3{
+            form{
+                .titulo-form{
+                    font-size: 1rem;
+                }
+                .nombre,.mensaje{
+                        font-size: .8rem;
+                    input{
+                        padding: .8rem;
+                    }
+                }
+                .boton-mensaje{
+                    width: 50%;
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width:750px) {
     .main{
-        height: 800vh;
     }
     .header{
         width: 100%;
@@ -136,6 +184,51 @@
             grid-template-columns: repeat(auto-fit,minmax(8rem,1.5fr));
         }
     }
+    .footer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 3fr;
+        gap: 1rem;
+        .menu-1{
+            flex-direction: row;
+            .logo-footer-img{
+                width: 10%;
+            }
+            .logo-footer-texto{
+                font-size: var(--Tamaño-header-titulo);
+            }
+        }
+        .menu-2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .sub-paginas{
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 2rem;
+                height: initial;
+                .sub-links{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .menu-3{
+            form{
+                padding: 2rem;
+                .titulo-form{
+                    font-size: 1rem;
+                }
+                .nombre,.mensaje{
+                        font-size: .8rem;
+                    input{
+                        padding: .8rem;
+                    }
+                }
+                .boton-mensaje{
+                    width: 30%;
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width:500px){
     .header {
@@ -173,7 +266,6 @@
         }
     }
     .main{
-        height: 1500vh;
         .fondo{
             width: 88%;
             top: 7rem;
@@ -209,6 +301,40 @@
                 .tarjeta:hover{
                     transform: scale(0.90);
                     background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8));
+                }
+            }
+        }
+        .footer{
+            gap: 0;
+            padding: 1rem;
+            .menu-1{
+                .logo-footer-texto{
+                    font-size: 1rem;
+                }
+            }
+            .menu-2{
+                .sub-paginas{
+                    .sub-links{
+                        font-size: .8rem;
+                    }
+                }
+            }
+            .menu-3{
+                form{
+                    padding: 1rem;
+                    .titulo-form{
+                        font-size: 1rem;
+                    }
+                    .nombre,.mensaje{
+                            font-size: .8rem;
+                        input{
+                            padding: .8rem;
+                            
+                        }
+                    }
+                    .boton-mensaje{
+                        width: 100%;
+                    }
                 }
             }
         }

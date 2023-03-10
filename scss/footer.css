@@ -1,0 +1,96 @@
+@charset "UTF-8";
+.footer {
+  top: 10rem;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/fondo-footer.png);
+  margin: auto;
+  overflow: hidden;
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  color: var(--Color-fuente-1);
+}
+.footer .menu-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.footer .menu-1 .logo-footer-img {
+  width: 20%;
+}
+.footer .menu-1 .logo-footer-texto {
+  font-family: var(--Fuente-Logo);
+  font-size: var(--Tamaño-header-titulo);
+}
+.footer .menu-1 .logo-footer-texto span {
+  color: var(--Color-span-1);
+}
+.footer .menu-2 .sub-paginas {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer .menu-2 .sub-paginas .sub-links {
+  text-decoration: none;
+  color: var(--Color-fuente-1);
+  font-family: var(--Fuente-Logo);
+  transition: all 1s ease-out;
+}
+.footer .menu-2 .sub-paginas .sub-links:hover {
+  text-shadow: 5px 5px 15px rgba(226, 17, 17, 0.9254901961);
+}
+.footer .menu-3 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  font-family: var(--Fuente-Logo);
+}
+.footer .menu-3 form .titulo-form {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.footer .menu-3 form .mensaje, .footer .menu-3 form .nombre {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer .menu-3 form .mensaje input, .footer .menu-3 form .nombre input {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  width: 80%;
+  height: 1rem;
+  padding: 1rem;
+  color: var(--Color-fuente-1);
+  font-size: 1rem;
+  font-family: var(--Tamaño-texto);
+  border-radius: 2rem;
+  border: 0;
+  outline: none;
+}
+.footer .menu-3 form .mensaje ::-moz-placeholder, .footer .menu-3 form .nombre ::-moz-placeholder {
+  color: #b8b8bb;
+}
+.footer .menu-3 form .mensaje ::placeholder, .footer .menu-3 form .nombre ::placeholder {
+  color: #b8b8bb;
+}
+.footer .menu-3 form .boton-mensaje {
+  width: 30%;
+  font-family: var(--Fuente-Logo);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid var(--Color-fondo-1);
+  border-radius: 2rem;
+  color: var(--Color-fuente-1);
+  transition: all 1s ease-in-out;
+  padding: 1rem;
+}
+.footer .menu-3 form .boton-mensaje:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border: none;
+  cursor: pointer;
+  transform: scale(1.05);
+}/*# sourceMappingURL=footer.css.map */
