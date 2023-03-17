@@ -30,7 +30,7 @@
 .card-1, .card-2, .card-3{
     display: grid;
     grid-gap: 4rem;
-    grid-template-columns: repeat(auto-fit,minmax(10rem,1.5fr));
+    grid-template-columns: repeat(auto-fit,minmax(10rem,.5fr));
 }
 .tarjeta{
     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
