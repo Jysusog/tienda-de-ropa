@@ -3,7 +3,7 @@
         {
             "id":"sud-1",
             "titulo":"Sudadera Beige",
-            "imagen": "../img/sudaderas/sud-1.webp",
+            "imagen": "./img/sudaderas/sud-1.webp",
             "precio":"$350"
         },
         {
