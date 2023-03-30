@@ -222,7 +222,7 @@ const crearListaGorras = (id, titulo, imagen,precio) => {
   const listaSudaderas = () => {
     const promise = new Promise((resolve, reject) => {
       const http = new XMLHttpRequest();
-      http.open("GET", "http://localhost:3000/sudaderas");
+      http.open("GET", "https://my-json-server.typicode.com/jysusog/tienda-de-ropa/sudaderas");
       http.send();
       http.onload = () => {
         const response = JSON.parse(http.response);
@@ -238,7 +238,7 @@ const crearListaGorras = (id, titulo, imagen,precio) => {
   const listaChamarras = () => {
     const promise = new Promise((resolve, reject) => {
       const http = new XMLHttpRequest();
-      http.open("GET", "http://localhost:3000/chamarras");
+      http.open("GET", "https://my-json-server.typicode.com/jysusog/tienda-de-ropa/chamarras");
       http.send();
       http.onload = () => {
         const response = JSON.parse(http.response);
@@ -255,7 +255,7 @@ const crearListaGorras = (id, titulo, imagen,precio) => {
   const listaGorras = () => {
     const promise = new Promise((resolve, reject) => {
       const http = new XMLHttpRequest();
-      http.open("GET", "http://localhost:3000/gorras");
+      http.open("GET", "https://my-json-server.typicode.com/jysusog/tienda-de-ropa/gorras");
       http.send();
       http.onload = () => {
         const response = JSON.parse(http.response);
