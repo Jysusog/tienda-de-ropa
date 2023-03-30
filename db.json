@@ -1,0 +1,116 @@
+{
+    "sudaderas": [
+        {
+            "id":"sud-1",
+            "titulo":"Sudadera Beige",
+            "imagen": "./img/sudaderas/sud-1.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"sud-2",
+            "titulo":"Sudadera cafe",
+            "imagen": "./img/sudaderas/sud-2.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"sud-3",
+            "titulo":"Sudadera Beige",
+            "imagen": "./img/sudaderas/sud-3.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"sud-4",
+            "titulo":"Sudadera Beige",
+            "imagen": "./img/sudaderas/sud-4.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"sud-5",
+            "titulo":"Sudadera Beige",
+            "imagen": "./img/sudaderas/sud-5.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"sud-6",
+            "titulo":"Sudadera Beige",
+            "imagen": "./img/sudaderas/sud-6.webp",
+            "precio":"$350"
+        }
+    ],
+    "chamarras": [
+        {
+            "id":"cha-1",
+            "titulo":"Chamarras",
+            "imagen": "./img/chamarras/ch-1.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"cha-2",
+            "titulo":"Chamarras",
+            "imagen": "./img/chamarras/ch-2.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"cha-3",
+            "titulo":"Chamarras",
+            "imagen": "./img/chamarras/ch-3.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"cha-4",
+            "titulo":"Chamarras",
+            "imagen": "./img/chamarras/ch-4.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"cha-5",
+            "titulo":"Chamarras",
+            "imagen": "./img/chamarras/ch-5.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"cha-6",
+            "titulo":"Chamarras",
+            "imagen": "./img/chamarras/ch-6.webp",
+            "precio":"$350"
+        }
+    ],
+    "gorras":[
+        {
+            "id":"gap-1",
+            "titulo":"Set de gorras",
+            "imagen": "./img/gorras/gap-1.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"gap-2",
+            "titulo":"Set de gorras",
+            "imagen": "./img/gorras/gap-2.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"gap-3",
+            "titulo":"Set de gorras",
+            "imagen": "./img/gorras/gap-3.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"gap-4",
+            "titulo":"Gorra estanpada",
+            "imagen": "./img/gorras/gap-4.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"gap-5",
+            "titulo":"Gorra estanpada",
+            "imagen": "./img/gorras/gap-5.webp",
+            "precio":"$350"
+        },
+        {
+            "id":"gap-6",
+            "titulo":"Gorra estanpada",
+            "imagen": "./img/gorras/gap-6.webp",
+            "precio":"$350"
+        }
+    ]
+}
