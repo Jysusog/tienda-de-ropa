@@ -66,7 +66,7 @@ header.active{
     border:none;
     transition: all .7s ease-in-out;
 }
-.boton-nav .bi-person{
+.boton-nav .bi{
     font-size: var(--Tamaño-header-icono-person);
 }
 .boton-busqueda .bi-search{
