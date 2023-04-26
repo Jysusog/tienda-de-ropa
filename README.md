@@ -1,1 +1,2 @@
-# tienda-de-ropa
+# Proyecto Tienda De Ropa
+Challenge de Oracle | ONE
